@@ -1,5 +1,6 @@
 <?php
 // 1. Configuración de las credenciales de tu base de datos (según tu captura)
+// y no usen ROOT 
 $host = "127.0.0.1";
 $usuario = "root";
 $password = ""; // Deja vacío si no configuraste contraseña en tu MySQL
