@@ -5,7 +5,7 @@ const usuario = usuarios.find(u => u.control === controlActivo);
 if (!usuario) {
     window.location.href = "login.html";
 }
-
+//esto hace funcionar el carrito
 document.getElementById("bienvenida").textContent = "Hola, " + usuario.nombre + " (Semestre " + usuario.semestre + ")";
 document.getElementById("tituloSemestre").textContent = "Libros de " + usuario.semestre + "° Semestre";
 
