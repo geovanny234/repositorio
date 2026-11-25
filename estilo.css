@@ -1,0 +1,36 @@
+.bodyinicio {
+    background:  linear-gradient(blue,green,yellow);
+    min-height: 165vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login-card {
+    width: 100%;
+    max-width: 300px;
+    padding: 35px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 8px 25px rgba(red, green, blue, alpha);
+}
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: blueviolet;
+
+}
+.bin-login {
+    width: 100%;
+    margin-top: 10px;
+
+}
+.registro {
+    text-align: center;
+    margin-top: 10px;
+}
+.inicio{
+    background:  linear-gradient(blue,green,yellow);
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
